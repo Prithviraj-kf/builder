@@ -20,7 +20,6 @@ import { HeroBanner } from "./HeroBanner";
 import { OrderHistoryList } from "./OrderHistoryList";
 import { ProductFilters } from "./ProductFilters";
 import { ProductGrid } from "./ProductGrid";
-import { SalesStats } from "./SalesStats";
 
 export const ecommerceFragments = {
   HeroBanner,
@@ -30,5 +29,4 @@ export const ecommerceFragments = {
   CartSummary,
   CheckoutForm,
   OrderHistoryList,
-  SalesStats,
 } as unknown as FragmentRegistry;
